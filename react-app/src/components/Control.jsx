@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-class Subject extends Component {
+class Control extends Component {
   render() {
+    console.log("Control render");
     return (
       <ul>
         <li>
@@ -40,4 +41,4 @@ class Subject extends Component {
   }
 }
 
-export default Subject;
+export default Control;
